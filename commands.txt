@@ -5,3 +5,9 @@ git status ==> list all untracked files
 git add -A ==> add all untracked files to sA  (staging area)
 
 git commit -m "msgexample" ==>  moving to local repository
+
+git remote add test https://github.com/Abhimannue/testrepo.git ==> for linking github
+
+git remote -v ==> for checking status of remote
+
+git push -u test master ==> for pushing the files (-u only for first time pushing)
